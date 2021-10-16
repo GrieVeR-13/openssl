@@ -596,7 +596,7 @@ typedef struct ssl3_state_st {
     unsigned char previous_client_finished_len;
     unsigned char previous_server_finished[EVP_MAX_MD_SIZE];
     unsigned char previous_server_finished_len;
-    int send_connection_binding; /* TODOEKR */
+    int send_connection_binding;
 
 #  ifndef OPENSSL_NO_NEXTPROTONEG
     /*
